@@ -18,8 +18,8 @@ String kor = h.get("apple"); // kor = "사과"
 | boolean containValue\(Object value\) | 하나 이상의 키를 지정된 값에 매핑시킬 수 있으면 true |
 | V get\(Object key\) | 지정된 키에 매핑되는 값 리턴, 키에 매핑되는 어떤 값도 없으면 null |
 | boolean isEmpty\(\) | HashMap이 비어 있으면 true |
-| Set&lt;K&gt; keySet\(\) | HashMap에 있는 모든 키를 담은 Set&lt;K&gt; 컬렉션 리 |
-| V put\(K key, V value\) | 키와 값을 매핑하여 HashMap에 저 |
-| V remove\(Object key\) | 지정된 키와 이에 매핑된 값을 HashMap에서 삭 |
-| int size\(\) | HashMap에 포함된 요소의 개수 리 |
+| Set&lt;K&gt; keySet\(\) | HashMap에 있는 모든 키를 담은 Set&lt;K&gt; 컬렉션 리턴   |
+| V put\(K key, V value\) | 키와 값을 매핑하여 HashMap에 저장   |
+| V remove\(Object key\) | 지정된 키와 이에 매핑된 값을 HashMap에서 삭제   |
+| int size\(\) | HashMap에 포함된 요소의 개수 리턴   |
 
